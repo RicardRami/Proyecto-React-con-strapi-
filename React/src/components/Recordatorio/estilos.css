@@ -1,0 +1,43 @@
+.levi{
+    display:block;
+    width: 1475px;
+    height: 800px;
+    text-align: center;
+}
+.tik img{
+    width: 200px;
+    height: 150px;
+    flex-grow: 2;
+    object-fit: cover;
+    filter: brightness(30%);
+    transition: .7s ease;
+    cursor: pointer;
+}
+.tik img:hover{
+    width: 850px;
+    height: 500px;
+    opacity: 1;
+    filter: brightness(130%);
+}
+.tik center{
+   display: inline-block;
+}
+
+.tok img{
+    width: 200px;
+    height: 150px;
+    flex-grow: 2;
+    object-fit: cover;
+    filter: brightness(30%);
+    transition: .7s ease;
+    cursor: pointer;
+}
+.tok img:hover{
+    width: 850px;
+    height: 500px;
+    opacity: 1;
+    filter: brightness(130%);
+}
+.tok center{
+   display: inline-block;
+}

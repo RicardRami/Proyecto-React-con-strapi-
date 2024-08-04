@@ -1,0 +1,13 @@
+.header_space{
+    background-color: #FAD7A0;
+    width: 100%;
+}
+.auth_button_login{
+    background-color: rgb(146, 2, 151);
+    color:white;
+    
+}
+.auth_button_signUp{
+    background-color: rgb(146, 2, 151);
+    color:white;
+}

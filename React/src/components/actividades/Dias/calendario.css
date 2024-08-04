@@ -1,0 +1,78 @@
+.calendario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4dfbe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .form-act {
+    max-width: 850px; /* ancho máximo del formulario */
+    margin: 40px auto; /* margen superior e inferior de 40px y centrado horizontalmente */
+    padding: 20px; /* padding interior del formulario */
+    background-color: #f9f9f9; /* color de fondo claro */
+    border: 1px solid #ccc; /* borde gris claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra leve */
+  }
+
+  .Titulo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .radio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .radiob {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .radiob input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .radiob img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+    color: #444;
+  }
+  img{
+    width: 80px;
+    height: 80px;
+  }
+  textarea {
+    width: 90%; /* Ancho del textarea */
+    max-width: 100%; /* Ancho máximo del textarea */
+    height: auto; /* Altura automática */
+    min-height: 100px; /* Altura mínima del textarea */
+    padding: 10px; /* Relleno interior */
+    font-size: 1rem; /* Tamaño de la fuente */
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+    border: 1px solid #ccc; /* Borde del textarea */
+    border-radius: 4px; /* Bordes redondeados */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra interior */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transición para borde y sombra */
+    resize: vertical; /* Permite cambiar el tamaño verticalmente */
+  }
+  
+  /* Estilo para el textarea al enfocarse */
+  textarea:focus {
+    border-color: #fd76e6; /* Color del borde al enfocarse */
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6); /* Sombra del textarea al enfocarse */
+    outline: none; /* Elimina el borde exterior predeterminado */
+  }

@@ -1,0 +1,25 @@
+/* ThreeDivs.css */
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: #f0f0f0; /* Color de fondo para visualizar mejor */
+}
+
+.box {
+    font-size: 25px;
+    background-color: #FAD7A0; /* Color de fondo de los divs */
+    color: rgb(146, 2, 151); /* Color del texto */
+    padding: 20px; /* Relleno interno */
+    margin: 10px; /* Espacio entre los divs */
+    text-align: center; /* Alinear el texto al centro */
+    border-radius: 10px; /* Bordes redondeados */
+    flex: 0 1 200px; /* Los divs serán de tamaño fijo (200px) */
+}
+
+.box img{
+    width: 400px;
+    height: 350px;
+    border-radius: 15px;
+}

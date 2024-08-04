@@ -1,0 +1,114 @@
+
+.contacto-layout {
+  display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    height: 79vh;
+    width: 100%;
+  }
+  
+  .contacto-info {
+    width: 50%;
+  }
+  
+  .contacto-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contacto-social {
+    margin-top: 20px;
+  }
+  
+  .contacto-social ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacto-social li {
+    margin: 10px 0;
+  }
+  
+  .contacto-social a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .contacto-social img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .contacto-form {
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAD7A0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .contacto-form h2 {
+    text-align: center;
+  }
+  /* Estilos generales del formulario */
+
+
+/* Estilos para los grupos de campos del formulario */
+.form-group {
+  margin-bottom: 20px; /* margen inferior entre grupos de campos */
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+  display: block; /* etiquetas como bloques */
+  margin-bottom: 10px; /* margen inferior entre etiqueta y campo */
+  font-weight: bold; /* texto en negrita */
+}
+
+/* Estilos para los campos de texto y textarea */
+input[type="text"], input[type="email"], textarea {
+  width: 100%; /* ancho completo */
+  padding: 10px; /* padding interior */
+  border: 1px solid #ccc; /* borde gris claro */
+  border-radius: 5px; /* bordes redondeados */
+}
+
+/* Estilos para el botón de envío */
+button[type="submit"] {
+  background-color: rgb(146, 2, 151); /* color de fondo verde */
+  color: #fff; /* texto blanco */
+  padding: 10px 20px; /* padding interior */
+  border: none; /* no borde */
+  border-radius: 5px; /* bordes redondeados */
+  cursor: pointer; /* cursor en forma de mano */
+}
+
+button[type="submit"]:hover {
+  background-color: #02c309; /* color de fondo verde oscuro al pasar el mouse */
+}
+  
+  
+  .contacto-recursos {
+    margin-top: 30px;
+  }
+  
+  .contacto-recursos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contacto-recursos a {
+    text-decoration: none;
+    color: rgb(146, 2, 151);
+  }
+  
+  .contacto-recursos a:hover {
+    text-decoration: underline;
+  }
+  
